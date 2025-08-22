@@ -1,4 +1,4 @@
-FROM python:3.10-slim-buster
+FROM python@sha256:37aa274c2d001f09b14828450d903c55f821c90f225fdfdd80c5180fcca77b3f
 
 RUN apt-get update && apt-get install -y -q --no-install-recommends \
         gnupg curl git jq moreutils ca-certificates unzip less tree pandoc \
